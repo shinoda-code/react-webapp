@@ -2,7 +2,7 @@
   "name": "my-webpack-preset",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.jsx",
   "scripts": {
     "test": "npx webpack",
     "cleanup": "npx rimraf ./public",
@@ -20,6 +20,7 @@
     "autoprefixer": "^10.2.6",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.2",
+    "babel-preset-react": "^6.24.1",
     "core-js": "^3.15.2",
     "css-loader": "^5.2.6",
     "css-minimizer-webpack-plugin": "^3.0.2",
@@ -31,6 +32,8 @@
     "jquery": "^3.6.0",
     "mini-css-extract-plugin": "^1.6.2",
     "postcss-loader": "^6.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "regenerator-runtime": "^0.13.7",
     "rimraf": "^3.0.2",
     "sass": "^1.35.1",
@@ -42,6 +45,9 @@
     "webpack-merge": "^5.8.0"
   },
   "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.14.9",
+    "@babel/preset-react": "^7.14.5",
+    "eslint-plugin-react": "^7.24.0",
     "ts-loader": "^9.2.5",
     "typescript": "^4.3.5",
     "webpack-cli": "^4.7.2",

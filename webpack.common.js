@@ -5,10 +5,7 @@ const { ProvidePlugin } = require('webpack');
 
 module.exports = ({outputFile, assetFile}) => ({
     entry: {
-        // app:'./src/js/app.js',
-        // sub:'./src/js/sub.js'
-        index:'./src/ts/index.ts',
-        // sub:'./src/ts/sub.js'
+        index:'./src/js/index.jsx',
     },
     output: {
         path: path.resolve(__dirname, 'public'),
@@ -20,7 +17,7 @@ module.exports = ({outputFile, assetFile}) => ({
         rules: [
             {
                 enforce: 'pre',
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'eslint-loader',
 
@@ -29,12 +26,13 @@ module.exports = ({outputFile, assetFile}) => ({
                 }
             },
             {
-                test: /\.js$/,
+                test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loader: 'babel-loader',
+                options: {
+                    presets: ["@babel/preset-env","@babel/preset-react"]
+                }
             },
-
-            //tsloader
             {
                 test: /\.ts$/,
                 loader: 'ts-loader'
@@ -106,7 +104,7 @@ module.exports = ({outputFile, assetFile}) => ({
             '@scss':[ path.resolve(__dirname, 'src/scss')],
             '@imgs': path.resolve(__dirname, 'src/images')
         },
-        extensions: [ '.ts', '.js', 'scss'],
+        extensions: [ '.jsx', '.js', 'scss'],
         modules: [path.resolve(__dirname, 'src'),'node_modules'],
     }
 });
