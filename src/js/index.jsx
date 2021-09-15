@@ -1,5 +1,15 @@
 import React from 'react';
-import { render } from 'react-dom';
-import App from './components/App';
+import App from './App';
+import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import '../scss/app.scss';
 
-render(<App />, document.querySelector('#content'));
+
+// ========================================
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.querySelector('#content')
+);

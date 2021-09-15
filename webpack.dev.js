@@ -9,6 +9,8 @@ module.exports = () => merge(commonConf({outputFile, assetFile}), {
     devtool: 'source-map',
     devServer: {
         open: true,
+        port: 3302,
+        historyApiFallback: true,
         contentBase: './public',
         watchOptions: {
             ignored: /node_modules/

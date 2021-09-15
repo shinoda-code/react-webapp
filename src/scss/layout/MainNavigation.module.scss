@@ -1,0 +1,28 @@
+
+.header {
+  display: flex;
+  background-color: #c7f758;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: auto 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: left;
+
+    li {
+      margin: 0 1rem;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

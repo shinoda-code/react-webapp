@@ -1,0 +1,43 @@
+
+.form {
+  margin: 0 auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  .control {
+    margin: 1rem 0;
+
+     label {
+      padding-right: 1rem;
+      margin: auto;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: .1rem;
+      vertical-align: top;
+     }
+  }
+
+  .actions {
+
+    button {
+      outline: none;
+      border: none;
+      background: yellowgreen;
+      padding: .6rem 1.2rem;
+      transition: all .3s;
+      border-radius: .5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: .1rem;
+      // box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+    }
+    button:hover {
+      box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.418);
+    }
+  }
+}

@@ -1,0 +1,13 @@
+
+.item {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content {
+  max-width: 300px;
+}

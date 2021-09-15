@@ -1,0 +1,167 @@
+._3aOJRSsc_-uRPKHze-xM9H {
+  list-style-type: none;
+  padding-left: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+._2KiTH3RHDydPK3Q2pYmDT_ {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+._1q2bmVMN3Bjj4wqdIAtxN9 {
+  max-width: 300px;
+}
+.w_0QiX9GoDUAPKTv7fC5W {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.349);
+  border-radius: 1rem;
+  padding: 1rem;
+  background: #fff;
+  max-width: 90%;
+  margin: 0 auto;
+}
+._1Due7uUFW-xkEHcp23X-Pw {
+  margin: 0 auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+._1Due7uUFW-xkEHcp23X-Pw ._2rpAomRfgoYALTG0XiF-Ap {
+  margin: 1rem 0;
+}
+._1Due7uUFW-xkEHcp23X-Pw ._2rpAomRfgoYALTG0XiF-Ap label {
+  padding-right: 1rem;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  vertical-align: top;
+}
+._1Due7uUFW-xkEHcp23X-Pw ._3V0JsHaAONP5Q0O64iASFH button {
+  outline: none;
+  border: none;
+  background: yellowgreen;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+._1Due7uUFW-xkEHcp23X-Pw ._3V0JsHaAONP5Q0O64iASFH button:hover {
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.418);
+}
+._26nhDFF5Tk3DCPStsTyELX {
+  max-width: 800px;
+  margin: 0 auto;
+}
+._2EuU39JfZ_b98LDPQN3GKd {
+  display: flex;
+  background-color: #c7f758;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+._2EuU39JfZ_b98LDPQN3GKd ._1vsCQb6bg_Z3b19EH6wTEx {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: auto 0;
+}
+._2EuU39JfZ_b98LDPQN3GKd ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-align: left;
+}
+._2EuU39JfZ_b98LDPQN3GKd ul li {
+  margin: 0 1rem;
+}
+._2EuU39JfZ_b98LDPQN3GKd ul li a {
+  text-decoration: none;
+}
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #c7c7c7;
+  position: relative;
+}
+
+.card {
+  max-width: 500px;
+  width: 60%;
+  padding: 1rem;
+  margin: 2rem auto;
+  background: #f3d353;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.377);
+}
+
+.actions {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0.2rem;
+  background: #333333;
+  color: #fff;
+  transition: all 0.3s;
+  margin: 0.4rem;
+}
+
+.btn:hover {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.397);
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: #fff;
+  text-align: center;
+  padding: 1.4rem;
+  border-radius: 0.4rem;
+  z-index: 999;
+  box-shadow: 3px 3px 8px rgba(31, 31, 31, 0.377);
+}
+
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(51, 51, 51, 0.404);
+}
+
+.app-h1 {
+  margin: 0 1rem;
+}
+
+.h1ToCenter {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin: 2rem auto;
+}
+
+/*# sourceMappingURL=index.css.map*/
